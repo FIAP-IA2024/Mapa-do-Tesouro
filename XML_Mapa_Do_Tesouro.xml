@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema>
+  <table name="tbl_ajuste">
+    <column name="id_ajuste" type="INTEGER" nullable="false"/>
+    <column name="ajt_data" type="TIMESTAMP" nullable="false"/>
+    <column name="ajt_qntd_n" type="NUMBER(10, 2)" nullable="true"/>
+    <column name="ajt_qntd_p" type="NUMBER(10, 2)" nullable="true"/>
+    <column name="ajt_qntd_k" type="NUMBER(10, 2)" nullable="true"/>
+    <column name="ajt_qntd_agua" type="NUMBER(10, 2)" nullable="true"/>
+    <column name="ajt_tipo_irrigacao" type="VARCHAR(40 CHAR)" nullable="true"/>
+    <column name="ajt_vazao" type="NUMBER(10, 2)" nullable="true"/>
+    <column name="ajt_duracao" type="NUMBER(10, 2)" nullable="true"/>
+    <column name="id_zona" type="INTEGER" nullable="false"/>
+    <constraint type="primary_key" columns="id_ajuste"/>
+    <foreign_key column="id_zona" references="tbl_zona_plant(id_zona)" on_delete="cascade"/>
+  </table>
+
+  <table name="tbl_cultura">
+    <column name="id_cultura" type="INTEGER" nullable="false"/>
+    <column name="ctr_nome" type="VARCHAR(50 CHAR)" nullable="false"/>
+    <column name="ctr_ciclo_vida" type="VARCHAR(25 CHAR)" nullable="true"/>
+    <column name="id_solo" type="INTEGER" nullable="false"/>
+    <constraint type="primary_key" columns="id_cultura"/>
+    <foreign_key column="id_solo" references="tbl_solo(id_solo)" />
+  </table>
+
+  <table name="tbl_fazenda">
+    <column name="id_fazenda" type="INTEGER" nullable="false"/>
+    <column name="fzd_nome" type="VARCHAR(100 CHAR)" nullable="false"/>
+    <column name="fzd_endereco" type="VARCHAR(200 CHAR)" nullable="false"/>
+    <constraint type="primary_key" columns="id_fazenda"/>
+  </table>
+
+  <table name="tbl_irrigacao">
+    <column name="id_irrigacao" type="INTEGER" nullable="false"/>
+    <column name="irr_data" type="TIMESTAMP" nullable="false"/>
+    <column name="irr_qntd_agua" type="NUMBER(6, 2)" nullable="false"/>
+    <column name="id_zona" type="INTEGER" nullable="false"/>
+    <constraint type="primary_key" columns="id_irrigacao"/>
+    <foreign_key column="id_zona" references="tbl_zona_plant(id_zona)" on_delete="cascade"/>
+  </table>
+
+  <table name="tbl_leitura">
+    <column name="id_leitura" type="INTEGER" nullable="false"/>
+    <column name="ltr_data" type="TIMESTAMP" nullable="false"/>
+    <column name="ltr_umidade" type="NUMBER(6, 2)" nullable="true"/>
+    <column name="ltr_ph" type="NUMBER(6, 2)" nullable="true"/>
+    <column name="ltr_nutriente_n" type="NUMBER(6, 2)" nullable="true"/>
+    <column name="ltr_nutriente_p" type="NUMBER(6, 2)" nullable="true"/>
+    <column name="ltr_nutriente_k" type="NUMBER(6, 2)" nullable="true"/>
+    <column name="id_sensor" type="INTEGER" nullable="false"/>
+    <constraint type="primary_key" columns="id_leitura"/>
+    <foreign_key column="id_sensor" references="tbl_sensor(id_sensor)" on_delete="cascade"/>
+  </table>
+
+  <table name="tbl_praga_doenca">
+    <column name="id_praga_doenca" type="INTEGER" nullable="false"/>
+    <column name="pd_nome" type="VARCHAR(50 CHAR)" nullable="false"/>
+    <column name="pd_descricao" type="VARCHAR(150 CHAR)" nullable="true"/>
+    <column name="pd_tratamento_recomendado" type="VARCHAR(150 CHAR)" nullable="true"/>
+    <constraint type="primary_key" columns="id_praga_doenca"/>
+  </table>
+
+  <table name="tbl_sensor">
+    <column name="id_sensor" type="INTEGER" nullable="false"/>
+    <column name="sns_tipo_sensor" type="VARCHAR(50 CHAR)" nullable="false"/>
+    <column name="sns_data_calibracao" type="TIMESTAMP" nullable="false"/>
+    <column name="sns_modelo" type="VARCHAR(50 CHAR)" nullable="false"/>
+    <column name="sns_area" type="NUMBER(10, 2)" nullable="false"/>
+    <column name="id_zona" type="INTEGER" nullable="false"/>
+    <constraint type="primary_key" columns="id_sensor"/>
+    <foreign_key column="id_zona" references="tbl_zona_plant(id_zona)" on_delete="cascade"/>
+  </table>
+
+  <table name="tbl_solo">
+    <column name="id_solo" type="INTEGER" nullable="false"/>
+    <column name="slo_tipo_solo" type="VARCHAR(25 CHAR)" nullable="false"/>
+    <column name="slo_ph_desejado" type="NUMBER(6, 2)" nullable="true"/>
+    <column name="slo_umidade_ideal" type="NUMBER(6, 2)" nullable="true"/>
+    <column name="slo_caracteristicas" type="VARCHAR(140 CHAR)" nullable="true"/>
+    <column name="id_zona" type="INTEGER" nullable="false"/>
+    <constraint type="primary_key" columns="id_solo"/>
+  </table>
+
+  <table name="tbl_tratamento">
+    <column name="id_tratamento" type="INTEGER" nullable="false"/>
+    <column name="trt_data" type="TIMESTAMP" nullable="false"/>
+    <column name="trt_produto" type="VARCHAR(50 CHAR)" nullable="false"/>
+    <column name="trt_dosagem" type="NUMBER(10, 2)" nullable="false"/>
+    <column name="id_zona" type="INTEGER" nullable="false"/>
+    <column name="id_praga_doenca" type="INTEGER" nullable="false"/>
+    <constraint type="primary_key" columns="id_tratamento"/>
+    <foreign_key column="id_praga_doenca" references="tbl_praga_doenca(id_praga_doenca)" on_delete="cascade"/>
+    <foreign_key column="id_zona" references="tbl_zona_plant(id_zona)" on_delete="cascade"/>
+  </table>
+
+  <table name="tbl_zona_plant">
+    <column name="id_zona" type="INTEGER" nullable="false"/>
+    <column name="zna_descricao" type="VARCHAR(100 BYTE)" nullable="false"/>
+    <column name="zna_geometria" type="sdo_geometry" nullable="false"/>
+    <column name="id_fazenda" type="INTEGER" nullable="false"/>
+    <column name="id_cultura" type="INTEGER" nullable="false"/>
+    <column name="id_solo" type="INTEGER" nullable="false"/>
+    <constraint type="primary_key" columns="id_zona"/>
+    <foreign_key column="id_fazenda" references="tbl_fazenda(id_fazenda)" on_delete="cascade"/>
+    <foreign_key column="id_cultura" references="tbl_cultura(id_cultura)" on_delete="cascade"/>
+    <foreign_key column="id_solo" references="tbl_solo(id_solo)"/>
+  </table>
+</schema>

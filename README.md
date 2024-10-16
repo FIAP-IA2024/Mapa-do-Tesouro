@@ -1,122 +1,66 @@
+
+# FIAP - Faculdade de Informática e Administração Paulista
+
+<p align="center">
+<a href= "https://www.fiap.com.br/"><img src="assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Administração Paulista" border="0" width=40% height=40%></a>
+</p>
+
+<br>
+
 # FarmTech Solutions
 
+## Nome do grupo
 
-## Participantes
-**Edimilson Ribeiro da Silva**
-**Henrique Sarmento**
-**Jonas Felipe dos Santos Lima**
-**Jose Antonio Correa Junior**
-**Jordanna Marçal Lima**
+## 👨‍🎓 Integrantes:
+- <a href="https://www.linkedin.com/company/inova-fusca">Edimilson Ribeiro da Silva</a>
+- <a href="https://www.linkedin.com/company/inova-fusca">Henrique Sarmento</a>
+- <a href="https://www.linkedin.com/company/inova-fusca">Jonas Felipe dos Santos Lima</a>
+- <a href="https://www.linkedin.com/company/inova-fusca">Jose Antonio Correa Junior</a>
+- <a href="https://www.linkedin.com/company/inova-fusca">Jordanna Marçal Lima</a>
 
-## 📄 Descrição
+## 👩‍🏫 Professores:
+### Tutor(a)
+- <a href="https://www.linkedin.com/company/inova-fusca">Nome do Tutor</a>
+### Coordenador(a)
+- <a href="https://www.linkedin.com/company/inova-fusca">Nome do Coordenador</a>
 
-Este projeto trata-se um banco de dados desenvolvido para gerenciar fazendas agrícolas que utilizam sensoriamento avançado para otimizar a aplicação de água e nutrientes. O projeto está sendo modelado e implementado utilizando **Oracle Database** através do **Oracle SQL Developer Data Modeler**. O principal objetivo do sistema é registrar dados de sensores, informações de culturas, zonas de plantio e ajustes de irrigação e fertilização, proporcionando uma visão integrada e eficiente do manejo agrícola.
+## 📜 Descrição
 
-## 🗃️ Estrutura e Relações do Banco de Dados
+Este projeto trata-se de um banco de dados desenvolvido para gerenciar fazendas agrícolas que utilizam sensoriamento avançado para otimizar a aplicação de água e nutrientes. O sistema permite o registro de dados de sensores, informações de culturas, zonas de plantio e ajustes de irrigação e fertilização, proporcionando uma visão integrada e eficiente do manejo agrícola. O banco de dados foi modelado e implementado utilizando Oracle Database e Oracle SQL Developer Data Modeler.
 
-O banco de dados é composto por várias tabelas inter-relacionadas, organizadas para representar as fazendas, culturas, zonas de plantio, sensores, e os ajustes realizados no manejo. A seguir, explicaremos detalhadamente cada uma das tabelas e suas relações:
+## 📁 Estrutura de pastas
 
-### 1. **`tbl_fazenda`**
-Esta tabela armazena as informações básicas sobre as fazendas cadastradas.
+Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
-- **id_fazenda**: Chave primária, identificador único da fazenda.
-- **fzd_nome**: Nome da fazenda.
-- **fzd_endereco**: Endereço da fazenda.
+- **.github**: Configurações específicas do GitHub.
+- **assets**: Arquivos relacionados a elementos não-estruturados, como imagens.
+- **config**: Arquivos de configuração para parâmetros e ajustes do projeto.
+- **document**: Documentos do projeto. A subpasta "other" contém documentos complementares.
+- **scripts**: Scripts auxiliares para tarefas específicas, como deploy, migrações de banco de dados, backups.
+- **src**: Todo o código fonte criado para o desenvolvimento ao longo das 7 fases.
+- **README.md**: Guia e explicação geral sobre o projeto.
 
-### 2. **`tbl_cultura`**
-Tabela responsável por registrar os tipos de culturas plantadas em cada fazenda.
+## 🔧 Como executar o código
 
-- **id_cultura**: Chave primária, identificador único da cultura.
-- **ctr_nome**: Nome da cultura (ex.: Café, Soja).
-- **ctr_ciclo_vida**: Ciclo de vida da cultura (em dias).
-- **id_solo**: Chave estrangeira que referencia o tipo de solo na tabela `tbl_solo`.
+Descrever as informações necessárias sobre pré-requisitos (IDEs, serviços, bibliotecas etc.) e instalação básica do projeto. Explicar o passo a passo para o leitor baixar e executar o código.
 
-### 3. **`tbl_solo`**
-Tabela que define os diferentes tipos de solo presentes nas zonas de plantio.
+## 🗃 Histórico de lançamentos
 
-- **id_solo**: Chave primária, identificador único do tipo de solo.
-- **sol_tipo**: Tipo de solo (ex.: Argiloso, Arenoso, Misturado).
-- **sol_composicao**: Composição química e física do solo.
+* 0.5.0 - XX/XX/2024
+    * Atualização de funcionalidades
+* 0.4.0 - XX/XX/2024
+    * Correções de bugs
+* 0.3.0 - XX/XX/2024
+    * Novas implementações
+* 0.2.0 - XX/XX/2024
+    * Primeira versão estável
+* 0.1.0 - XX/XX/2024
+    * Lançamento inicial
 
-### 4. **`tbl_zona_plant`**
-Representa as diferentes zonas de plantio dentro de uma fazenda. Cada fazenda pode ter várias zonas de plantio, cada uma com suas características específicas.
+## 📋 Licença
 
-- **id_zona**: Chave primária, identificador único da zona de plantio.
-- **zona_nome**: Nome da zona de plantio.
-- **id_fazenda**: Chave estrangeira que referencia a fazenda à qual a zona de plantio pertence.
-- **id_cultura**: Chave estrangeira que referencia a cultura plantada na zona.
-- **id_solo**: Chave estrangeira que referencia o tipo de solo presente na zona.
+<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/agodoi/template">MODELO GIT FIAP</a> por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://fiap.com.br">Fiap</a> está licenciado sobre <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International</a>.</p>
 
-### 5. **`tbl_sensor`**
-Armazena os dados sobre os sensores utilizados para monitoramento nas zonas de plantio.
+---
 
-- **id_sensor**: Chave primária, identificador único do sensor.
-- **sensor_tipo**: Tipo do sensor (ex.: Umidade, Temperatura, pH).
-- **sensor_ultima_leitura**: Última leitura registrada pelo sensor.
-- **sensor_ultima_atualizacao**: Data e hora da última leitura.
-- **id_zona**: Chave estrangeira que referencia a zona de plantio onde o sensor está instalado.
-
-### 6. **`tbl_ajuste`**
-Tabela que registra os ajustes realizados nas zonas de plantio em termos de irrigação e aplicação de nutrientes.
-
-- **id_ajuste**: Chave primária, identificador único do ajuste.
-- **ajt_data**: Data e hora em que o ajuste foi realizado.
-- **ajt_qntd_n**: Quantidade de Nitrogênio aplicada (em kg ou litros).
-- **ajt_qntd_p**: Quantidade de Fósforo aplicada (em kg ou litros).
-- **ajt_qntd_k**: Quantidade de Potássio aplicada (em kg ou litros).
-- **ajt_qntd_agua**: Quantidade de água aplicada (em litros).
-- **ajt_tipo_irrigacao**: Tipo de irrigação realizada (ex.: Gotejamento, Aspersão).
-- **ajt_vazao**: Vazão da irrigação (em litros por segundo).
-- **ajt_duracao**: Duração da irrigação (em minutos).
-- **id_zona**: Chave estrangeira que referencia a zona de plantio onde o ajuste foi realizado.
-
-### 7. **`tbl_irrigacao`**
-Tabela dedicada a armazenar os detalhes de cada evento de irrigação.
-
-- **id_irrigacao**: Chave primária, identificador único do evento de irrigação.
-- **irr_data**: Data e hora em que a irrigação ocorreu.
-- **irr_tipo**: Tipo de irrigação (Gotejamento, Pivô Central, etc.).
-- **irr_qntd_agua**: Quantidade de água utilizada.
-- **id_zona**: Chave estrangeira que referencia a zona onde a irrigação foi realizada.
-
-### 8. **`tbl_colheita`**
-Armazena os dados das colheitas realizadas nas zonas de plantio.
-
-- **id_colheita**: Chave primária, identificador único da colheita.
-- **col_data**: Data da colheita.
-- **col_qntd_colhida**: Quantidade colhida (em toneladas ou unidades).
-- **id_zona**: Chave estrangeira que referencia a zona de onde a colheita foi realizada.
-  
-## 🔗 Relações Entre Tabelas
-
-### Relacionamentos principais:
-
-- **Fazenda e Zonas de Plantio**: Cada fazenda (`tbl_fazenda`) pode ter várias zonas de plantio (`tbl_zona_plant`), representando diferentes áreas dentro da fazenda que podem cultivar culturas distintas ou iguais. A relação entre elas é 1:N (uma fazenda para muitas zonas de plantio).
-  
-- **Zona de Plantio e Cultura**: Cada zona de plantio (`tbl_zona_plant`) é dedicada ao cultivo de uma cultura específica (`tbl_cultura`). A relação é N:1 (várias zonas podem cultivar a mesma cultura).
-
-- **Zona de Plantio e Solo**: Cada zona de plantio está associada a um tipo de solo (`tbl_solo`), o que influencia diretamente as decisões de manejo. A relação é N:1 (várias zonas podem ter o mesmo tipo de solo).
-
-- **Zona de Plantio e Sensores**: Cada zona de plantio pode ter vários sensores (`tbl_sensor`) instalados para monitoramento. A relação é 1:N (uma zona pode ter vários sensores).
-
-- **Zona de Plantio e Ajustes de Irrigação/Nutrientes**: Todos os ajustes (`tbl_ajuste`) e eventos de irrigação (`tbl_irrigacao`) estão associados a uma zona de plantio específica. Cada zona de plantio pode ter vários registros de ajustes e irrigação, formando uma relação 1:N (uma zona para muitos ajustes e irrigação).
-
-- **Zona de Plantio e Colheitas**: Cada colheita (`tbl_colheita`) é associada a uma zona de plantio, formando uma relação 1:N (uma zona para várias colheitas ao longo do tempo).
-
-### Integridade Referencial
-
-As chaves estrangeiras garantem que as referências entre tabelas sejam mantidas corretamente, evitando a inserção de dados inconsistentes. Por exemplo:
-- A `id_fazenda` na tabela `tbl_zona_plant` assegura que todas as zonas de plantio estão ligadas a fazendas válidas.
-- A `id_zona` presente em tabelas como `tbl_sensor`, `tbl_ajuste`, `tbl_irrigacao`, e `tbl_colheita` garante que os dados de sensores, ajustes e colheitas estão corretamente associados às zonas de plantio.
-
-## 🛡️ Licença
-
-Este projeto está licenciado sob a **MIT License**. 
-
-## 🤝 Contribuições
-
-Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests com melhorias ou correções.
-
-## 📞 Contato
-
-Para dúvidas ou sugestões, entre em contato através do email: rm559645@fiap.com.br.
+Essa versão mantém a estrutura original, mas se alinha ao padrão de README da FIAP.
