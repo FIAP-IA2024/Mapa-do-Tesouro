@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="88BD5A08-59F0-9011-629C-E359DA4C5531" name="tbl SOLO">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 21:23:31 UTC</createdTime>
+<generatorID>3DE39A76-48AE-025D-AC0A-D438396D10D0</generatorID>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<engineerTo>
+<item key="EB781265-DD58-E2BC-FCDD-EB4E0377181E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID SOLO" id="0B67B7FE-ECCE-42DC-E186-508DF1F4EC56">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 21:23:31 UTC</createdTime>
+<generatorID>3FDA8016-DB5B-AF70-ACD5-B01E8BF35733</generatorID>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<engineerTo>
+<item key="EB781265-DD58-E2BC-FCDD-EB4E0377181E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="slo TIPO SOLO" id="422738D1-DEDA-0CA3-9E05-9EE5787695A7">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 21:23:31 UTC</createdTime>
+<generatorID>3ED479D7-B560-B9F1-01C9-3DEC235C2918</generatorID>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<engineerTo>
+<item key="EB781265-DD58-E2BC-FCDD-EB4E0377181E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="slo PH DESEJADO" id="C80C7970-78E8-8681-D65C-ACA45C8C7A75">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 21:23:31 UTC</createdTime>
+<generatorID>5DD436A2-C23F-BD04-C74A-D67F039F68C3</generatorID>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<engineerTo>
+<item key="EB781265-DD58-E2BC-FCDD-EB4E0377181E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="slo UMIDADE IDEAL" id="55A51941-BCE5-648D-29F0-51D40E9CCA3A">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 21:23:31 UTC</createdTime>
+<generatorID>14E9F51A-2415-AF91-5918-5E8ACC6E76DC</generatorID>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<engineerTo>
+<item key="EB781265-DD58-E2BC-FCDD-EB4E0377181E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="slo CARACTERISTICAS" id="6303F59A-5EA7-4320-09EB-08CCA9647AC8">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 21:23:31 UTC</createdTime>
+<generatorID>E7E0AE96-F565-6501-7BCA-158F22F9A236</generatorID>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<engineerTo>
+<item key="EB781265-DD58-E2BC-FCDD-EB4E0377181E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>140 CHAR</dataTypeSize>
+<ownDataTypeParameters>140 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID ZONA" id="606F8E5D-474E-78AE-DB68-AC309FC40174">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 21:23:31 UTC</createdTime>
+<generatorID>9C7D8206-8686-EA79-8F28-2D98DE8BDF2B</generatorID>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<engineerTo>
+<item key="EB781265-DD58-E2BC-FCDD-EB4E0377181E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8E4BDC36-9627-4953-D3C5-5F9620048359" name="tbl SOLO PK">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 21:23:31 UTC</createdTime>
+<generatorID>6DDC0C6C-5FA0-951B-03D0-422B5EDB64A6</generatorID>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<engineerTo>
+<item key="EB781265-DD58-E2BC-FCDD-EB4E0377181E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0B67B7FE-ECCE-42DC-E186-508DF1F4EC56</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

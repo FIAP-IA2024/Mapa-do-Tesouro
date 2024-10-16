@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="tbl_PRAGA_DOENCA" directorySegmentName="seg_0" id="ED992BBA-F0EB-5CC1-7D43-9D13605856C6">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_PRAGA_DOENCA" id="AFA04462-D2B8-CAD7-6BF6-6AD39EAA644B">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="pd_NOME" id="B37F9E39-1C2B-5B02-FC9F-DA5C3351FF70">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="pd_DESCRICAO" id="D395884F-3A40-2410-133D-0921EBE38493">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="tbl_PRAGA_DOENCA_PK" id="CD7DE86D-4D8E-6EF4-8071-E2F417FC18AF">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

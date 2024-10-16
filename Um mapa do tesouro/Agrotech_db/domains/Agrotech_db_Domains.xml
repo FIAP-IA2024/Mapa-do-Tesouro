@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="Agrotech_db_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="DECIMAL_5_2_0" id="078190B9-A479-7BC0-084A-AD63445A21D2">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>Agrotech_db_Domains</fileName>
+<logicalDatatype>LOGDT026</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Timestamp_6_0_0" id="47B5D1FD-78E8-ED66-D39B-AD18FA6CC9F8">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>6</dataTypePrecision>
+<fileName>Agrotech_db_Domains</fileName>
+<logicalDatatype>LOGDT015</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_200" id="523D697E-67FD-8DA9-6268-8D31247E2D76">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>200</dataTypeSize>
+<fileName>Agrotech_db_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="6444BEE0-1FAE-F9F5-546C-DE3EE8B78312">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>Agrotech_db_Domains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Integer_0_0_0" id="F4EBF702-45C1-E556-7563-AB224483312F">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>Agrotech_db_Domains</fileName>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_100" id="F55160F2-C7BD-566A-3A1D-1081DFACE65C">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>100</dataTypeSize>
+<fileName>Agrotech_db_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_50" id="FD18E8CC-9599-766F-5777-D32E4C07BC15">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>50</dataTypeSize>
+<fileName>Agrotech_db_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="DECIMAL_10_2_0" id="FFB56B63-8148-F856-F2FF-A02CC1A4FA29">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>Agrotech_db_Domains</fileName>
+<logicalDatatype>LOGDT026</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

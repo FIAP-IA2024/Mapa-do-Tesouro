@@ -1,13 +1,5 @@
 # FarmTech Solutions
 
-
-## Participantes
-**Edimilson Ribeiro da Silva**
-**Henrique Sarmento**
-**Jonas Felipe dos Santos Lima**
-**Jose Antonio Correa Junior**
-**Jordanna Marçal Lima**
-
 ## 📄 Descrição
 
 Este projeto trata-se um banco de dados desenvolvido para gerenciar fazendas agrícolas que utilizam sensoriamento avançado para otimizar a aplicação de água e nutrientes. O projeto está sendo modelado e implementado utilizando **Oracle Database** através do **Oracle SQL Developer Data Modeler**. O principal objetivo do sistema é registrar dados de sensores, informações de culturas, zonas de plantio e ajustes de irrigação e fertilização, proporcionando uma visão integrada e eficiente do manejo agrícola.

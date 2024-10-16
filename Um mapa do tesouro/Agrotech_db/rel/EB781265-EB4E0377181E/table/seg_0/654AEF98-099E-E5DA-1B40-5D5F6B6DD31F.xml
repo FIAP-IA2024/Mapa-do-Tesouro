@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="654AEF98-099E-E5DA-1B40-5D5F6B6DD31F" name="tbl_IRRIGACAO">
+<sourceDDLFile>Agrotech_db.ddl</sourceDDLFile>
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<importedID>B5BC316D-5CEE-FB20-3EE3-D4D7C8581AAD</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_IRRIGACAO" id="2EFAD929-8D02-26F3-ED47-183ED37B458E">
+<sourceDDLFile>Agrotech_db.ddl</sourceDDLFile>
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<importedID>05DA26A1-6E8A-A9F7-DE1D-1B5A5801FF7E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="irr_DATA" id="EF0F5E49-792F-9D27-0AD8-80524F03DF8D">
+<sourceDDLFile>Agrotech_db.ddl</sourceDDLFile>
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<importedID>4F862EFE-D971-2FF8-D0C9-CA80573D5658</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="irr_QNTD_AGUA" id="006B2AE4-3902-78DC-82F6-F6DDE1F599BE">
+<sourceDDLFile>Agrotech_db.ddl</sourceDDLFile>
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<importedID>1A854844-4D9C-B07E-FD15-03BFDB05ABFC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ZONA" id="DE3DF89A-96CD-D1E4-AA66-4519A71644EB">
+<sourceDDLFile>Agrotech_db.ddl</sourceDDLFile>
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<importedID>89A009D8-3B32-EB06-19EA-D226BD615028</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A51335E-10D3-50C1-B623-1296E29625B1" referredColumn="AD84F6E2-9E43-3456-CEBE-C8E2109907DE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="843ADADF-97BD-EB50-6456-203FC2C183D4" name="tbl_IRRIGACAO_PK">
+<sourceDDLFile>Agrotech_db.ddl</sourceDDLFile>
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<importedID>322D9253-3793-CA7D-D144-C737DA80B1F1</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EFAD929-8D02-26F3-ED47-183ED37B458E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C28576A-1C69-BA9D-6164-97A36862B182" name="tbl_IRRIGACAO_tbl_ZONA_PLANT_FK">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE3DF89A-96CD-D1E4-AA66-4519A71644EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

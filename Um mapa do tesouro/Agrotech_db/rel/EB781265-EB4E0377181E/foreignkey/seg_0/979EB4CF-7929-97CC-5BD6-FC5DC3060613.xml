@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="979EB4CF-7929-97CC-5BD6-FC5DC3060613" containerWithKeyObject="3D025562-445D-6994-8191-16B5C82FD36D" localFKIndex="FB24C959-F3EA-C4E1-5836-AC16E855F2E6" name="tbl_LEITURA_tbl_SENSOR_FK">
+<sourceDDLFile>Agrotech_db.ddl</sourceDDLFile>
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<importedID>DF7DFB66-C2D7-9FC6-5774-863069BE4661</importedID>
+<referredTableLongName>tbl_SENSOR</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>49AB9262-D0DB-FACC-A247-7966726D020C</referredTableID>
+<keyObject>FBBFA760-B6ED-B8B1-B186-EFF3A3A65B8D</keyObject>
+<referredKeyID>FBBFA760-B6ED-B8B1-B186-EFF3A3A65B8D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_SENSOR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FEAEF032-5C07-7382-8C09-04CF3DE1C7EE" name="tbl ZONA PLANT">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 21:23:31 UTC</createdTime>
+<generatorID>49D4C413-FB37-A28B-3232-08A3898EF392</generatorID>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<engineerTo>
+<item key="EB781265-DD58-E2BC-FCDD-EB4E0377181E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID ZONA" id="00F2B554-261E-B872-3D1C-BF6123151F35">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 21:23:31 UTC</createdTime>
+<generatorID>AD84F6E2-9E43-3456-CEBE-C8E2109907DE</generatorID>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<engineerTo>
+<item key="EB781265-DD58-E2BC-FCDD-EB4E0377181E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zna DESCRICAO" id="C26CA622-10C0-9463-6202-A534A36A8A1C">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 21:23:31 UTC</createdTime>
+<generatorID>F6DAB328-F2C2-49F9-3D02-5C4AFB3E5330</generatorID>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<engineerTo>
+<item key="EB781265-DD58-E2BC-FCDD-EB4E0377181E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="zna GEOMETRIA" id="6FB02EC9-2C3A-7A22-23E7-9CA6E595F968">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 21:23:31 UTC</createdTime>
+<generatorID>F3D8FEDD-DC45-C230-F887-0D38C37EF9CD</generatorID>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<engineerTo>
+<item key="EB781265-DD58-E2BC-FCDD-EB4E0377181E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID FAZENDA" id="546F64C0-670A-11E5-838F-C422B33699B4">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 21:23:31 UTC</createdTime>
+<generatorID>2BEAF823-BF4F-CBA9-04FD-E3FC898EBE2E</generatorID>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<engineerTo>
+<item key="EB781265-DD58-E2BC-FCDD-EB4E0377181E" value="true"/>
+</engineerTo>
+<referedAttribute>8FA055CC-BD29-F513-1B5F-E36F459F8FFA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID CULTURA" id="D6BA98FC-1B48-F0E0-1C5A-5B9201B99E1C">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 21:23:31 UTC</createdTime>
+<generatorID>826C1C2E-1913-994F-D715-B5EE29AFE9DA</generatorID>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<engineerTo>
+<item key="EB781265-DD58-E2BC-FCDD-EB4E0377181E" value="true"/>
+</engineerTo>
+<referedAttribute>A9CC89CC-8944-9772-8732-8C41177F4325</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID SOLO" id="83D2DD56-7C45-D60B-ADAE-9664E9CC4A96">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 21:23:31 UTC</createdTime>
+<generatorID>68946E91-54AD-832D-910A-093B56DD20E4</generatorID>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<engineerTo>
+<item key="EB781265-DD58-E2BC-FCDD-EB4E0377181E" value="true"/>
+</engineerTo>
+<referedAttribute>0B67B7FE-ECCE-42DC-E186-508DF1F4EC56</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3567D377-AAD8-C6A1-46B5-0B99ADE3BF63" name="tbl ZONA PLANT PK">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 21:23:31 UTC</createdTime>
+<generatorID>AAF51CF7-AF86-E1E8-F632-AD43354CBB36</generatorID>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<engineerTo>
+<item key="EB781265-DD58-E2BC-FCDD-EB4E0377181E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>00F2B554-261E-B872-3D1C-BF6123151F35</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

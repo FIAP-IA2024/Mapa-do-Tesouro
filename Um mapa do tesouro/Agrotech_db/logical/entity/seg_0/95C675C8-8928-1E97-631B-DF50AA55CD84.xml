@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="95C675C8-8928-1E97-631B-DF50AA55CD84" name="tbl FAZENDA">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 21:23:31 UTC</createdTime>
+<generatorID>0AA34BF5-B1B5-1B75-BC40-0EFFBBC3134D</generatorID>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<engineerTo>
+<item key="EB781265-DD58-E2BC-FCDD-EB4E0377181E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID FAZENDA" id="8FA055CC-BD29-F513-1B5F-E36F459F8FFA">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 21:23:31 UTC</createdTime>
+<generatorID>FE11DCBB-176E-CA75-B941-D7C53B45AC86</generatorID>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<engineerTo>
+<item key="EB781265-DD58-E2BC-FCDD-EB4E0377181E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fzd NOME" id="8BF38708-4388-ABE4-2C21-9E5B89372458">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 21:23:31 UTC</createdTime>
+<generatorID>59ADD00B-420E-E944-644C-C5713B33E639</generatorID>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<engineerTo>
+<item key="EB781265-DD58-E2BC-FCDD-EB4E0377181E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fzd ENDERECO" id="DAC8B08D-689A-2017-631F-4F725B25EF3C">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 21:23:31 UTC</createdTime>
+<generatorID>3F672C84-B144-9174-5A33-F9AEE7D77597</generatorID>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<engineerTo>
+<item key="EB781265-DD58-E2BC-FCDD-EB4E0377181E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E1B28ED9-02E3-4B23-BE78-E5F34369DC97" name="tbl FAZENDA PK">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 21:23:31 UTC</createdTime>
+<generatorID>6C494346-0FE9-AB68-3848-F5D4B06BFC69</generatorID>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<engineerTo>
+<item key="EB781265-DD58-E2BC-FCDD-EB4E0377181E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8FA055CC-BD29-F513-1B5F-E36F459F8FFA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="4DE9ABA7-6989-E2A3-695D-94657B4305C0">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:43:46 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

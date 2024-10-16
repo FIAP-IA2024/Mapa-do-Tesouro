@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28204481-B385-C616-5C0E-3EE2381F37EE" name="tbl_CULTURA">
+<sourceDDLFile>Agrotech_db.ddl</sourceDDLFile>
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<importedID>4792C140-16D0-EAFD-E191-9448FADE0BFC</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CULTURA" id="F8CCDAD2-7B43-4EA7-CAB8-06E3F2220047">
+<sourceDDLFile>Agrotech_db.ddl</sourceDDLFile>
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<importedID>B1D1C436-2624-5A0D-96F6-418216CE85C4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ctr_NOME" id="6B6F814A-8525-F550-4A39-202B6F6FDE9C">
+<sourceDDLFile>Agrotech_db.ddl</sourceDDLFile>
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<importedID>BD1978BC-5481-CEBF-814E-676F55D103BD</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ctr_CICLO_VIDA" id="D2A1896A-C3D1-E504-2A53-871B0422C920">
+<sourceDDLFile>Agrotech_db.ddl</sourceDDLFile>
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<importedID>0BE275DE-DB5F-E1BD-CB07-F3AAA5C8BC46</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_SOLO" id="0F5AE681-E801-76CD-B63F-54F1E5772939">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 16:40:42 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8E65F7D-D959-C182-2BE3-755AE28984F1" referredColumn="3FDA8016-DB5B-AF70-ACD5-B01E8BF35733"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8310D879-762E-7D02-8F30-4184FF170A31" name="tbl_CULTURA_PK">
+<sourceDDLFile>Agrotech_db.ddl</sourceDDLFile>
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<importedID>FB316D60-C0DF-B683-D78E-743D52D19A6C</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8CCDAD2-7B43-4EA7-CAB8-06E3F2220047"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC305227-7E79-984A-D03D-62913B630C98" name="tbl_CULTURA_tbl_SOLO_FK">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 16:40:42 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F5AE681-E801-76CD-B63F-54F1E5772939"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

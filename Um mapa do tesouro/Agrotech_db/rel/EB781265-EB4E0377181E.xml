@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Agrotech_db" id="EB781265-DD58-E2BC-FCDD-EB4E0377181E" mainViewID="F850CB25-02D2-A2CB-F5F6-F16F29DB0ED8">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:43:48 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>79C73AAF-E1A7-E669-7DF0-025EE81A2AFC</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>Agrotech_db.ddl</fileName>
+<pathName>C:\Users\jcorr\Dropbox\FIAP\Inteligencia Artificial\Fase 2 - Campo da Inovação - Uma plantação de códigos\Agrotech</pathName>
+<dbType>14</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

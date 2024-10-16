@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tbl_AJUSTE_tbl_ZONA_PLANT_FK" directorySegmentName="seg_0" id="F9F676A9-88D0-52E9-B1CA-B54FBC4E5D4E">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 21:23:31 UTC</createdTime>
+<generatorID>07B77CDF-90B2-308F-4A9B-27B743F65961</generatorID>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<engineerTo>
+<item key="EB781265-DD58-E2BC-FCDD-EB4E0377181E" value="true"/>
+</engineerTo>
+<sourcePk>3567D377-AAD8-C6A1-46B5-0B99ADE3BF63</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FEAEF032-5C07-7382-8C09-04CF3DE1C7EE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6F7C59E7-925F-6A2F-F6B2-DAB4D8886D54</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="tbl_LEITURA" directorySegmentName="seg_0" id="3D025562-445D-6994-8191-16B5C82FD36D">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ltr_PH" id="1060DF92-5D54-31F2-A130-74DCDA01D1B5">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_LEITURA" id="126AE877-9062-13EB-F905-24C6FB1077E7">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ltr_DATA" id="4E1B8F8D-B085-A877-9F91-622DD2525486">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_SENSOR" id="6648F553-1F4B-FB12-403A-80E3B1799EB8">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ltr_NUTRIENTE_K" id="8122B6CB-3F85-7FB9-DE8C-A185C174804B">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ltr_UMIDADE" id="8C5F9FAB-7739-90F5-26D8-5BEE62E88FA1">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ltr_NUTRIENTE_N" id="D94AB17E-9E6A-DA6C-61F3-AB9908B8664C">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ltr_NUTRIENTE_P" id="F4783AFE-9E82-1476-CC56-3C7E5EE32240">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="tbl_LEITURA_tbl_SENSOR_FK" id="FB24C959-F3EA-C4E1-5836-AC16E855F2E6">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="tbl_LEITURA_PK" id="65074ED6-6D7B-63F1-8E48-6077870AD246">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

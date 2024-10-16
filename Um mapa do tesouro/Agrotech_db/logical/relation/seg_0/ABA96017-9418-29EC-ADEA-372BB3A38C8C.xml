@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tbl_LEITURA_tbl_SENSOR_FK" directorySegmentName="seg_0" id="ABA96017-9418-29EC-ADEA-372BB3A38C8C">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 21:23:31 UTC</createdTime>
+<generatorID>979EB4CF-7929-97CC-5BD6-FC5DC3060613</generatorID>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<engineerTo>
+<item key="EB781265-DD58-E2BC-FCDD-EB4E0377181E" value="true"/>
+</engineerTo>
+<sourcePk>08C705E1-865C-EFD7-A047-3702B91A318C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A361C583-0398-E46D-E088-C80AACC21662</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3AB84065-83A3-8717-B54D-5AD8745AE115</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

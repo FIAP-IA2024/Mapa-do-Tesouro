@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="49D4C413-FB37-A28B-3232-08A3898EF392" name="tbl_ZONA_PLANT">
+<sourceDDLFile>Agrotech_db.ddl</sourceDDLFile>
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<importedID>C671C564-4E58-8188-A198-9A5B0EFB40F8</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ZONA" id="AD84F6E2-9E43-3456-CEBE-C8E2109907DE">
+<sourceDDLFile>Agrotech_db.ddl</sourceDDLFile>
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<importedID>70DB35A3-453F-3069-2596-4388DE8F1AB0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zna_DESCRICAO" id="F6DAB328-F2C2-49F9-3D02-5C4AFB3E5330">
+<sourceDDLFile>Agrotech_db.ddl</sourceDDLFile>
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<importedID>FBDF8D16-9D56-1DB6-9004-821498A8BA12</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zna_GEOMETRIA" id="F3D8FEDD-DC45-C230-F887-0D38C37EF9CD">
+<sourceDDLFile>Agrotech_db.ddl</sourceDDLFile>
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<importedID>101F5041-899D-6969-3BFD-684284B33AFF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>3</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_FAZENDA" id="A8394687-9173-BD1E-2CF6-5F878A6374E2">
+<sourceDDLFile>Agrotech_db.ddl</sourceDDLFile>
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<importedID>F135E368-AC3C-2B3B-7985-7E890D73DA5B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7253FA9-C1B3-E001-526B-EA2CE842F481" referredColumn="FE11DCBB-176E-CA75-B941-D7C53B45AC86"/>
+</associations>
+</Column>
+<Column name="ID_CULTURA" id="E32DC5CB-A336-2BD5-FBCB-3B6F29F40DBA">
+<sourceDDLFile>Agrotech_db.ddl</sourceDDLFile>
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<importedID>D6A02AD5-29D9-5299-A397-2937DF98A1BA</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3F54291-FCE1-0E58-6640-801A1FBDCDC7" referredColumn="F8CCDAD2-7B43-4EA7-CAB8-06E3F2220047"/>
+</associations>
+</Column>
+<Column name="ID_SOLO" id="6AE47BB2-5B2F-EDA2-60DB-3C2572CF4CDA">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 16:43:45 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7ED720B7-3DAC-FD4E-37A9-12634E8A98E9" referredColumn="3FDA8016-DB5B-AF70-ACD5-B01E8BF35733"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AAF51CF7-AF86-E1E8-F632-AD43354CBB36" name="tbl_ZONA_PLANT_PK">
+<sourceDDLFile>Agrotech_db.ddl</sourceDDLFile>
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<importedID>22FDA93E-0956-3070-9BC8-449EEEC65A23</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD84F6E2-9E43-3456-CEBE-C8E2109907DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96AE5909-F643-90DB-5271-1A3BE827DD11" name="tbl_ZONA_PLANT_tbl_CULTURA_FK">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E32DC5CB-A336-2BD5-FBCB-3B6F29F40DBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3EA695EF-040A-01CB-88A6-F291BC5E521D" name="tbl_ZONA_PLANT_tbl_FAZENDA_FK">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:48:54 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8394687-9173-BD1E-2CF6-5F878A6374E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A04602D-ABCB-BB47-44AC-55BC2259AF0C" name="tbl_ZONA_PLANT_tbl_SOLO_FK">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 16:43:45 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6AE47BB2-5B2F-EDA2-60DB-3C2572CF4CDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

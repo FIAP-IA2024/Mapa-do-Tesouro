@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E8E65F7D-D959-C182-2BE3-755AE28984F1" containerWithKeyObject="28204481-B385-C616-5C0E-3EE2381F37EE" localFKIndex="BC305227-7E79-984A-D03D-62913B630C98" name="tbl_CULTURA_tbl_SOLO_FK">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 16:40:42 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<referredTableLongName>tbl_SOLO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3DE39A76-48AE-025D-AC0A-D438396D10D0</referredTableID>
+<keyObject>6DDC0C6C-5FA0-951B-03D0-422B5EDB64A6</keyObject>
+<referredKeyID>6DDC0C6C-5FA0-951B-03D0-422B5EDB64A6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_SOLO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

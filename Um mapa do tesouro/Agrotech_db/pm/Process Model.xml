@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="3D653FFD-F2F0-72A6-4728-5B2E1F78DF98">
+<createdBy>jcorr</createdBy>
+<createdTime>2024-10-09 12:43:46 UTC</createdTime>
+<ownerDesignName>Agrotech_db</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>
